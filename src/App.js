@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <h2>Scalable</h2>
-      </div>
-    );
-  }
-}
+const App = () =>
+  <div className="App">
+    <pre>scalable ><span className="App-line">_</span></pre>
+  </div>;
 
 export default App;
