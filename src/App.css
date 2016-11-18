@@ -3,11 +3,9 @@
 }
 
 .App-line {
-  animation: App-line-blink infinite 1.2s ease-in-out;
+  animation: App-line-blink infinite 1.2s linear;
 }
 
 @keyframes App-line-blink {
-  0% { opacity: 1; }
   50% { opacity: 0; }
-  100% { opacity: 1; }
 }
